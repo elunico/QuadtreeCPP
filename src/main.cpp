@@ -21,7 +21,7 @@ int main(int argc, char const *argv[]) {
 
   long count = 0;
   for (auto &p : points) {
-    auto others = t.query(p, 5, 5);
+    auto others = t.query({p.x, p.y, 5, 5});
     for (auto &other : others) {
       // for (auto &other : points) {
       if (&p != &other) {

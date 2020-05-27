@@ -3,7 +3,13 @@
         {
             "name": "Linux",
             "defines": [],
-            "compilerPath": "/usr/bin/clang"
+            "compilerPath": "/usr/bin/clang",
+            "includePath": [
+                "/usr/include/**",
+                "/usr/local/include/**",
+                "${workspaceRoot}/include/**",
+                "${workspaceRoot}/**"
+            ]
         }
     ],
     "version": 4
