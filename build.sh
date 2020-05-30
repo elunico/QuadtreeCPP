@@ -1,2 +1,5 @@
-
-g++ -O2 -g -Wall -Iinclude/ -o main ./src/*.cpp
+if [[ $1 == "debug" ]]; then
+  g++ -O0 -g -Wall -DDEBUG -Iinclude/ -o main ./src/*.cpp
+else
+  g++ -O2 -Iinclude/ -o main ./src/*.cpp
+fi

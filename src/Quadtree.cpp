@@ -137,7 +137,7 @@ void QuadTree::printTreeShort(int depth) const {
 // accessors
 
 std::size_t QuadTree::capacity() const noexcept { return capacity_; }
-bool QuadTree::hasChildren() const { return isSplit; }
+bool QuadTree::hasChildren() const noexcept { return isSplit; }
 Rectangle const &QuadTree::boundary() const noexcept { return boundary_; }
 double QuadTree::x() const noexcept { return boundary_.x(); }
 double QuadTree::y() const noexcept { return boundary_.y(); }
