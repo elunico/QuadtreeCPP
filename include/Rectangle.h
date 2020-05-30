@@ -11,9 +11,9 @@ public:
   Rectangle();
   Rectangle(double x, double y, double w, double h);
 
-  bool contains(Point const &p);
+  bool contains(Point const &p) const noexcept;
 
-  bool intersects(Rectangle const &r);
+  bool intersects(Rectangle const &r) const noexcept;
 
   double x() const noexcept;
   double y() const noexcept;

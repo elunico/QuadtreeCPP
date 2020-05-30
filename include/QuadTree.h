@@ -12,10 +12,10 @@ private:
   Rectangle boundary_;
   std::size_t capacity_;
   std::vector<Point> points{};
-  std::unique_ptr<QuadTree> top_left = nullptr;
-  std::unique_ptr<QuadTree> top_right = nullptr;
-  std::unique_ptr<QuadTree> bottom_left = nullptr;
-  std::unique_ptr<QuadTree> bottom_right = nullptr;
+  std::unique_ptr<QuadTree> top_left;
+  std::unique_ptr<QuadTree> top_right;
+  std::unique_ptr<QuadTree> bottom_left;
+  std::unique_ptr<QuadTree> bottom_right;
   bool isSplit = false;
 
   void split();
@@ -26,9 +26,9 @@ public:
   QuadTree(Rectangle r, std::size_t capacity);
   QuadTree(double x, double y, double w, double h, std::size_t capacity);
 
-  bool contains(Point const &p);
+  bool contains(Point const &p) const noexcept;
 
-  bool intersects(Rectangle const &r);
+  bool intersects(Rectangle const &r) const noexcept;
 
   void insert(Point p);
 
@@ -41,7 +41,7 @@ public:
   void printTreeShort() const;
 
   std::size_t capacity() const noexcept;
-  bool hasChildren() const;
+  bool hasChildren() const noexcept;
   Rectangle const &boundary() const noexcept;
   double x() const noexcept;
   double y() const noexcept;

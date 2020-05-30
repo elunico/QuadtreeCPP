@@ -31,9 +31,9 @@ QuadTree::QuadTree(double x, double y, double w, double h, std::size_t capacity)
 
 // public functions
 
-bool QuadTree::contains(Point const &p) { return boundary_.contains(p); }
+bool QuadTree::contains(Point const &p) const noexcept { return boundary_.contains(p); }
 
-bool QuadTree::intersects(Rectangle const &r) {
+bool QuadTree::intersects(Rectangle const &r) const noexcept {
   return boundary_.intersects(r);
 }
 
