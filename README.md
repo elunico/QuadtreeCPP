@@ -6,3 +6,5 @@ algorithm seemed straightforward and I thought it would be a fun exercise since 
 trying to learn some Rust, I also ported it to Rust. 
 
 I am not affiliated with the Coding Train, I just like the videos 
+
+###### Disclaimer: I do not know Rust... yet 
