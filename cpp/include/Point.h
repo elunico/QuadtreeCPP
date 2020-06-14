@@ -13,6 +13,8 @@ struct Point {
   Point() : x(0), y(0) {}
   Point(double x_, double y_) : x(x_), y(y_) {}
 
+  double distance_to(Point const &other) const;
+
   std::string description() const {
     std::ostringstream s{};
     s << "Point(" << x << ", " << y << ")";
