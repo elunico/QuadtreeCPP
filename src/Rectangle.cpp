@@ -10,8 +10,8 @@ bool Rectangle::contains(Point const &p) const noexcept {
 }
 
 bool Rectangle::intersects(Rectangle const &r) const noexcept {
-  return !(r.x() - r.w() > x_ + w_ || r.x() + r.w() < x_ - w_ ||
-           r.y() - r.h() > y_ + h_ || r.y() + r.h() < y_ - h_);
+  return !(((r.x() - r.w()) > (x_ + w_)) || ((r.x() + r.w()) < (x_ - w_)) ||
+           ((r.y() - r.h()) > (y_ + h_)) || ((r.y() + r.h()) < (y_ - h_)));
 }
 
 double Rectangle::x() const noexcept { return x_; }

@@ -31,7 +31,9 @@ QuadTree::QuadTree(double x, double y, double w, double h, std::size_t capacity)
 
 // public functions
 
-bool QuadTree::contains(Point const &p) const noexcept { return boundary_.contains(p); }
+bool QuadTree::contains(Point const &p) const noexcept {
+  return boundary_.contains(p);
+}
 
 bool QuadTree::intersects(Rectangle const &r) const noexcept {
   return boundary_.intersects(r);
@@ -65,24 +67,26 @@ std::vector<Point> QuadTree::query(Rectangle const &r) {
     return found;
   } else {
     for (auto &p : points) {
-      found.push_back(p);
+      if (r.contains(p)) {
+        found.push_back(p);
+      }
     }
     if (hasChildren()) {
-      auto r1 = top_left->query(r);
-      auto r2 = top_right->query(r);
-      auto r3 = bottom_left->query(r);
-      auto r4 = bottom_right->query(r);
+      auto const &r1 = top_left->query(r);
+      auto const &r2 = top_right->query(r);
+      auto const &r3 = bottom_left->query(r);
+      auto const &r4 = bottom_right->query(r);
 
-      for (auto &p : r1) {
+      for (auto const &p : r1) {
         found.push_back(p);
       }
-      for (auto &p : r2) {
+      for (auto const &p : r2) {
         found.push_back(p);
       }
-      for (auto &p : r3) {
+      for (auto const &p : r3) {
         found.push_back(p);
       }
-      for (auto &p : r4) {
+      for (auto const &p : r4) {
         found.push_back(p);
       }
     }
