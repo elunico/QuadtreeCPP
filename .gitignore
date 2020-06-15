@@ -1,3 +1,4 @@
 main
 *.out
 rust/target
+.mypy_cache
