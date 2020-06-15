@@ -1,4 +1,5 @@
-main
+cpp/main
+swift/main
 *.out
 rust/target
 .mypy_cache
