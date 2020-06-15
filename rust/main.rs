@@ -195,14 +195,14 @@ impl Quadtree {
 
 use rand::prelude::random;
 fn main() {
-  let POINTS = 20000;
+  let total_points = 20000;
   let w = 200.0;
   let h = 200.0;
   let mut qt = Quadtree::new(w / 2.0, h / 2.0, w / 2.0, h / 2.0, 4);
   let mut points = Vec::<Point>::new();
 
   for i in 0..5 {
-    for _ in 0..POINTS {
+    for _ in 0..total_points {
       let x = random::<f64>() * w;
       let y = random::<f64>() * h;
       let p = Point { x, y };
