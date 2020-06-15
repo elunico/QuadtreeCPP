@@ -106,7 +106,7 @@ class Quadtree:
 
 def main():
     # about 10 times slower than C++ and Rust so 1/10 the points
-    TOTAL_POINTS = 2000
+    TOTAL_POINTS = 20000
     w = 200.0
     h = 200.0
     qt = Quadtree(w/2.0, h/2.0, w/2.0, h/2.0, 4)

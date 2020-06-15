@@ -171,7 +171,7 @@ end
 
 # about 2 times faster than python finishing in half the time for the same number of points
 # still about 5 times slower than C++ and Rust
-TOTAL_POINTS = 2000
+TOTAL_POINTS = 20000
 
 def main()
   w = 200.0
