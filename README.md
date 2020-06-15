@@ -18,6 +18,7 @@ The test being run is creating 20000 points within a 200 by 200 space and adding
 | C++                       | 1.0            |
 | Rust                      | 1.5            |
 | Swift                     | 2.0            |
+| Java                      | 2.0            |
 | Go* (w/ big Goroutines)   | 2.5            |
 | Go*                       | 15.0           |
 | Ruby                      | 19.0           |
