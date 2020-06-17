@@ -15,6 +15,8 @@ struct Point {
 
   double distance_to(Point const &other) const;
 
+  bool operator==(Point const &other) const noexcept;
+
   std::string description() const {
     std::ostringstream s{};
     s << "Point(" << x << ", " << y << ")";
@@ -23,4 +25,5 @@ struct Point {
 };
 
 std::ostream &operator<<(std::ostream &os, Point const &p);
+
 #endif

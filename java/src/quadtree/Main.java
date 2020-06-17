@@ -22,11 +22,11 @@ public class Main {
         for (Point point: points) {
             Rectangle r = new Rectangle(new Point(point.x, point.y), 10.0, 10.0);
             // for other in &points {
-            for (Point other : qt.query(r)) {
-                if (point != other && point.distanceTo(other) < 3.0) {
-                    count += 1;
-                }
-            }
+            count += qt.query(r)
+                       .stream()
+                       .filter(other -> point != other &&
+                                        point.distanceTo(other) < 3.0)
+                       .count();
         }
         System.out.println("Round " + i + ": Found " + count + " overlapping points");
         qt.clear();

@@ -15,6 +15,8 @@ public:
 
   bool intersects(Rectangle const &r) const noexcept;
 
+  bool operator==(Rectangle const &other) const noexcept;
+
   double x() const noexcept;
   double y() const noexcept;
   double w() const noexcept;

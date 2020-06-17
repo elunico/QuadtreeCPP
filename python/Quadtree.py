@@ -49,19 +49,10 @@ class Quadtree:
                 if r.contains(p):
                     found.append(p)
             if self.has_children():
-                r1 = self.tl.query(r)
-                r2 = self.tr.query(r)
-                r3 = self.bl.query(r)
-                r4 = self.br.query(r)
-
-                for p in r1:
-                    found.append(p)
-                for p in r2:
-                    found.append(p)
-                for p in r3:
-                    found.append(p)
-                for p in r4:
-                    found.append(p)
+                found.extend(self.tl.query(r))
+                found.extend(self.tr.query(r))
+                found.extend(self.bl.query(r))
+                found.extend(self.br.query(r))
             return found
 
     def divide(self):
@@ -105,7 +96,6 @@ class Quadtree:
 
 
 def main():
-    # about 10 times slower than C++ and Rust so 1/10 the points
     TOTAL_POINTS = 20000
     w = 200.0
     h = 200.0

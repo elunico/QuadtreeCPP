@@ -14,6 +14,10 @@ bool Rectangle::intersects(Rectangle const &r) const noexcept {
            ((r.y() - r.h()) > (y_ + h_)) || ((r.y() + r.h()) < (y_ - h_)));
 }
 
+bool Rectangle::operator==(Rectangle const &r) const noexcept {
+  return x() == r.x() && y() == r.y() && w() == r.w() && h() == r.h();
+}
+
 double Rectangle::x() const noexcept { return x_; }
 double Rectangle::y() const noexcept { return y_; }
 double Rectangle::w() const noexcept { return w_; }

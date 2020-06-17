@@ -3,3 +3,6 @@ swift/main
 *.out
 rust/target
 .mypy_cache
+.idea/
+out/
+*.iml

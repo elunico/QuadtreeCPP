@@ -2,7 +2,7 @@ import Foundation
 
 struct Point: Equatable {
     public static func == (lhs: Point, rhs: Point) -> Bool {
-        return lhs.x == rhs.x && lhs.y == rhs.y
+        lhs.x == rhs.x && lhs.y == rhs.y
     }
 
     let x: Double
@@ -18,7 +18,11 @@ struct Point: Equatable {
     }
 }
 
-struct Rectangle {
+struct Rectangle: Equatable {
+    public static func == (lhs: Rectangle, rhs: Rectangle) -> Bool {
+        lhs.center == rhs.center && lhs.width == rhs.width && lhs.height == rhs.height
+    }
+
     let center: Point
     let width: Double
     let height: Double
@@ -70,13 +74,11 @@ class Quadtree {
         bounds.intersects(rectangle: area)
     }
 
-    func has_children() -> Bool {
-        self.split
-    }
+    var has_children: Bool { self.split }
 
     func insert(point p: Point) {
         if points.count == capacity {
-            if !has_children() {
+            if !has_children {
                 divide()
             }
             if top_left.contains(point: p) {
@@ -100,29 +102,12 @@ class Quadtree {
         if !self.intersects(area: r) {
             return found;
         } else {
-            for p in points {
-                if r.contains(point: p) {
-                    found.append(p);
-                }
-            }
-            if self.has_children() {
-                let r1 = self.top_left.query(area: r);
-                let r2 = self.top_right.query(area: r);
-                let r3 = self.bottom_left.query(area: r);
-                let r4 = self.bottom_right.query(area: r);
-
-                for p in r1 {
-                    found.append(p);
-                }
-                for p in r2 {
-                    found.append(p);
-                }
-                for p in r3 {
-                    found.append(p);
-                }
-                for p in r4 {
-                    found.append(p);
-                }
+            found.append(contentsOf: points.filter { r.contains(point: $0) })
+            if self.has_children {
+                found.append(contentsOf: self.top_left.query(area: r));
+                found.append(contentsOf: self.top_right.query(area: r));
+                found.append(contentsOf: self.bottom_left.query(area: r));
+                found.append(contentsOf: self.bottom_right.query(area: r));
             }
             return found;
         }
@@ -197,14 +182,8 @@ func main() {
 
         var count = 0;
         for point in points {
-            let r = Rectangle(
-                center: Point(
-                    x: point.x,
-                    y: point.y
-                ),
-                width: 10.0,
-                height: 10.0
-            );
+            let center = Point(x: point.x, y: point.y)
+            let r = Rectangle(center: center, width: 10.0, height: 10.0);
             // for other in &points {
             for other in qt.query(area: r) {
                 if point != other && point.distance(to: other) < 3.0 {

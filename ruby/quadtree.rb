@@ -61,11 +61,11 @@ class Quadtree
   end
 
   def contains(other)
-    @bounds.contains(other)
+    @bounds.contains other
   end
 
   def intersects(other)
-    @bounds.intersects(other)
+    @bounds.intersects other
   end
 
   def has_children
@@ -74,22 +74,22 @@ class Quadtree
 
   def insert(p)
     if @points.count == @capacity
-      if !has_children()
-        divide()
+      if !self.has_children
+        self.divide
       end
-      if @tl.contains(p)
-        @tl.insert(p)
-      elsif @tr.contains(p)
-        @tr.insert(p)
-      elsif @bl.contains(p)
-        @bl.insert(p)
-      elsif @br.contains(p)
-        @br.insert(p)
+      if @tl.contains p
+        @tl.insert p
+      elsif @tr.contains p
+        @tr.insert p
+      elsif @bl.contains p
+        @bl.insert p
+      elsif @br.contains p
+        @br.insert p
       else
         raise ValueError("No subtree found 4 point {}".format(p))
       end
     else
-      self.points.append(p)
+      self.points.push p
     end
   end
 
@@ -99,31 +99,17 @@ class Quadtree
       return found
     else
       for p in self.points
-        if r.contains(p)
-          found.push(p)
+        if r.contains p
+          found.push p
         end
       end
       if has_children()
-        r1 = @tl.query(r)
-        r2 = @tr.query(r)
-        r3 = @bl.query(r)
-        r4 = @br.query(r)
-
-        for p in r1
-          found.push(p)
-        end
-        for p in r2
-          found.push(p)
-        end
-        for p in r3
-          found.push(p)
-        end
-        for p in r4
-          found.push(p)
-        end
+        tl.query(r).each { |p| found.push p }
+        tr.query(r).each { |p| found.push p }
+        bl.query(r).each { |p| found.push p }
+        br.query(r).each { |p| found.push p }
       end
     end
-
     found
   end
 
@@ -169,8 +155,6 @@ class Quadtree
   end
 end
 
-# about 2 times faster than python finishing in half the time for the same number of points
-# still about 5 times slower than C++ and Rust
 TOTAL_POINTS = 20000
 
 def main()
@@ -189,12 +173,10 @@ def main()
     end
 
     count = 0
-    for point in points
+    points.each do |point|
       r = Rectangle.new(Point.new(point.x, point.y), 10.0, 10.0)
-      for other in qt.query(r)
-        if point != other and point.distance_to(other) < 3.0
-          count += 1
-        end
+      qt.query(r).each do |other|
+        count += 1 unless point == other || point.distance_to(other) >= 3.0
       end
     end
     puts "Round #{i}: Found #{count} overlapping points"
