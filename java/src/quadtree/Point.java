@@ -33,6 +33,10 @@ public class Point {
   }
   
   public double x, y;
+  
+  public boolean overlaps(@NotNull Point other) {
+    return this != other && this.distanceTo(other) < 3.0;
+  }
 
   public Point(double x, double y) {
     this.x = x;

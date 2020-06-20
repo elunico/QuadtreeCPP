@@ -1,5 +1,8 @@
 package quadtree
 
+fun Boolean.then(block: () -> Unit): Boolean = if (this) this.apply { block() } else this
+fun Boolean.ifFalse(block: () -> Unit): Boolean = if (!this) this.apply { block() } else this
+
 class Quadtree(x: Double, y: Double, w: Double, h: Double, var capacity: Int) {
     val bounds: Rectangle = Rectangle(Point(x, y), w, h)
     private var points: MutableList<Point> = mutableListOf()
@@ -9,13 +12,9 @@ class Quadtree(x: Double, y: Double, w: Double, h: Double, var capacity: Int) {
     private var bottomRight: Quadtree? = null
     private var split = false
 
-    operator fun contains(point: Point): Boolean {
-        return bounds.contains(point)
-    }
+    operator fun contains(point: Point) = point in bounds
 
-    infix fun intersects(area: Rectangle): Boolean {
-        return bounds.intersects(area)
-    }
+    infix fun intersects(area: Rectangle) = bounds intersects area
 
     val hasChildren: Boolean
         get() = split
@@ -25,19 +24,10 @@ class Quadtree(x: Double, y: Double, w: Double, h: Double, var capacity: Int) {
             if (!hasChildren) {
                 divide()
             }
-            if (topLeft?.contains(p) == true) {
-                topLeft?.insert(p)
-            } else if (topRight?.contains(p) == true) {
-                topRight?.insert(p)
-            } else if (bottomLeft?.contains(p) == true) {
-                bottomLeft?.insert(p)
-            } else if (bottomRight?.contains(p) == true) {
-                bottomRight?.insert(p)
-            } else {
-                throw RuntimeException(
-                    "Insert could not find a subtree to insert into"
-                )
-            }
+            topLeft?.contains(p)?.then { topLeft?.insert(p) }
+            topRight?.contains(p)?.then { topRight?.insert(p) }
+            bottomLeft?.contains(p)?.then { bottomLeft?.insert(p) }
+            bottomRight?.contains(p)?.then { bottomRight?.insert(p) }
         } else {
             points.add(p)
         }
@@ -45,8 +35,8 @@ class Quadtree(x: Double, y: Double, w: Double, h: Double, var capacity: Int) {
 
     infix fun query(r: Rectangle): MutableList<Point> {
         val found = mutableListOf<Point>()
-        if (intersects(r)) {
-            found.addAll(points.filter(r::contains))
+        if (this intersects r) {
+            found.addAll(points.filter { it in r })
             if (hasChildren) {
                 topLeft?.apply { found.addAll(query(r)) }
                 topRight?.apply { found.addAll(query(r)) }

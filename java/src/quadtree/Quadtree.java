@@ -2,6 +2,7 @@ package quadtree;
 
 import org.jetbrains.annotations.*;
 
+import java.time.*;
 import java.util.ArrayList;
 
 import static java.util.Objects.requireNonNull;
@@ -53,6 +54,14 @@ public class Quadtree {
             }
         } else {
             points.add(p);
+        }
+    }
+    
+    
+    private void repeatFor(Duration time, Runnable block) {
+        var end = LocalDateTime.now().plus(time);
+        while (LocalDateTime.now().isBefore(end)) {
+            block.run();
         }
     }
     
