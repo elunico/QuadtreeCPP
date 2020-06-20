@@ -98,23 +98,10 @@ impl Quadtree {
         }
       }
       if self.has_children() {
-        let r1 = self.top_left.as_ref().unwrap().query(r);
-        let r2 = self.top_right.as_ref().unwrap().query(r);
-        let r3 = self.bottom_left.as_ref().unwrap().query(r);
-        let r4 = self.bottom_right.as_ref().unwrap().query(r);
-
-        for p in r1 {
-          found.push(p);
-        }
-        for p in r2 {
-          found.push(p);
-        }
-        for p in r3 {
-          found.push(p);
-        }
-        for p in r4 {
-          found.push(p);
-        }
+        found.extend(self.top_left.as_ref().unwrap().query(r));
+        found.extend(self.top_right.as_ref().unwrap().query(r));
+        found.extend(self.bottom_left.as_ref().unwrap().query(r));
+        found.extend(self.bottom_right.as_ref().unwrap().query(r));
       }
       return found;
     }

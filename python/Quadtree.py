@@ -45,9 +45,7 @@ class Quadtree:
         if not self.intersects(r):
             return found
         else:
-            for p in self.points:
-                if r.contains(p):
-                    found.append(p)
+            found.extend([i for i in self.points if r.contains(i)])
             if self.has_children():
                 found.extend(self.tl.query(r))
                 found.extend(self.tr.query(r))

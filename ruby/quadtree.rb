@@ -98,16 +98,12 @@ class Quadtree
     if not intersects(r)
       return found
     else
-      for p in self.points
-        if r.contains p
-          found.push p
-        end
-      end
+      found.concat(self.points.select { |p| r.contains p })
       if has_children()
-        tl.query(r).each { |p| found.push p }
-        tr.query(r).each { |p| found.push p }
-        bl.query(r).each { |p| found.push p }
-        br.query(r).each { |p| found.push p }
+        @tl.query(r).each { |p| found.push p }
+        @tr.query(r).each { |p| found.push p }
+        @bl.query(r).each { |p| found.push p }
+        @br.query(r).each { |p| found.push p }
       end
     end
     found
