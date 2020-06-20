@@ -178,7 +178,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            119
+  Line:            122
   Column:          28
 Function:        'Quadtree.divide()'
 Args:            
@@ -191,7 +191,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '0'
@@ -204,7 +204,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            120
+  Line:            123
   Column:          28
 Function:        'Quadtree.divide()'
 Args:            
@@ -217,7 +217,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '0'
@@ -230,7 +230,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            118
+  Line:            121
   Column:          25
 Function:        'Quadtree.divide()'
 Args:            
@@ -243,7 +243,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '2'
@@ -256,7 +256,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            126
+  Line:            129
   Column:          27
 Function:        'Quadtree.divide()'
 Args:            
@@ -269,7 +269,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '0'
@@ -282,7 +282,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            127
+  Line:            130
   Column:          27
 Function:        'Quadtree.divide()'
 Args:            
@@ -295,7 +295,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '0'
@@ -308,7 +308,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            125
+  Line:            128
   Column:          26
 Function:        'Quadtree.divide()'
 Args:            
@@ -321,7 +321,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '2'
@@ -334,7 +334,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            133
+  Line:            136
   Column:          27
 Function:        'Quadtree.divide()'
 Args:            
@@ -347,7 +347,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '0'
@@ -360,7 +360,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            134
+  Line:            137
   Column:          27
 Function:        'Quadtree.divide()'
 Args:            
@@ -373,7 +373,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '0'
@@ -386,7 +386,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            132
+  Line:            135
   Column:          28
 Function:        'Quadtree.divide()'
 Args:            
@@ -399,7 +399,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '2'
@@ -412,7 +412,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            140
+  Line:            143
   Column:          27
 Function:        'Quadtree.divide()'
 Args:            
@@ -425,7 +425,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '0'
@@ -438,7 +438,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            141
+  Line:            144
   Column:          27
 Function:        'Quadtree.divide()'
 Args:            
@@ -451,7 +451,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '0'
@@ -464,7 +464,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            139
+  Line:            142
   Column:          29
 Function:        'Quadtree.divide()'
 Args:            
@@ -477,7 +477,7 @@ Args:
   - Caller:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '2'
@@ -810,7 +810,7 @@ Args:
   - Callee:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '94'
@@ -935,12 +935,1165 @@ Args:
   - Callee:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '94'
   - String:          ', benefit = '
   - Benefit:         '30'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            153
+  Column:          18
+Function:        'Quadtree.clear()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Array.init(arrayLiteral:)"'
+  - String:          ' with type '
+  - FuncType:        '(@owned Array<Point>, @thin Array<Point>.Type) -> @owned Array<Point>'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            153
+  Column:          18
+Function:        'Quadtree.clear()'
+Args:            
+  - Callee:          '"specialized Swift.Array.init(arrayLiteral:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.Quadtree.clear()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            152
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            181
+  Column:          24
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Array.init()"'
+  - String:          ' with type '
+  - FuncType:        '(@thin Array<Point>.Type) -> @owned Array<Point>'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            183
+  Column:          15
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Range.init(uncheckedBounds:)"'
+  - String:          ' with type '
+  - FuncType:        '(Int, Int, @thin Range<Int>.Type) -> Range<Int>'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            183
+  Column:          14
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Collection<>.makeIterator()"'
+  - String:          ' with type '
+  - FuncType:        '(Range<Int>) -> IndexingIterator<Range<Int>>'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            183
+  Column:          11
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.IndexingIterator.next()"'
+  - String:          ' with type '
+  - FuncType:        '(@inout IndexingIterator<Range<Int>>) -> Optional<Int>'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            184
+  Column:          19
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Range.init(uncheckedBounds:)"'
+  - String:          ' with type '
+  - FuncType:        '(Int, Int, @thin Range<Int>.Type) -> Range<Int>'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            184
+  Column:          18
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Collection<>.makeIterator()"'
+  - String:          ' with type '
+  - FuncType:        '(Range<Int>) -> IndexingIterator<Range<Int>>'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            184
+  Column:          15
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.IndexingIterator.next()"'
+  - String:          ' with type '
+  - FuncType:        '(@inout IndexingIterator<Range<Int>>) -> Optional<Int>'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            185
+  Column:          40
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Range.init(uncheckedBounds:)"'
+  - String:          ' with type '
+  - FuncType:        '(Double, Double, @thin Range<Double>.Type) -> Range<Double>'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            185
+  Column:          28
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"static Swift.BinaryFloatingPoint<>.random(in:)"'
+  - String:          ' with type '
+  - FuncType:        '(Range<Double>, @thick Double.Type) -> Double'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            186
+  Column:          40
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Range.init(uncheckedBounds:)"'
+  - String:          ' with type '
+  - FuncType:        '(Double, Double, @thin Range<Double>.Type) -> Range<Double>'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            186
+  Column:          28
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"static Swift.BinaryFloatingPoint<>.random(in:)"'
+  - String:          ' with type '
+  - FuncType:        '(Range<Double>, @thick Double.Type) -> Double'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            189
+  Column:          20
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Array.append(_:)"'
+  - String:          ' with type '
+  - FuncType:        '(Point, @inout Array<Point>) -> ()'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          28
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Collection.map<A>(_:)"'
+  - String:          ' with type '
+  - FuncType:        '(@noescape @callee_guaranteed (@in_guaranteed Point) -> (@out Int, @error Error), @guaranteed Array<Point>) -> (@owned Array<Int>, @error Error)'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          78
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Sequence.reduce<A>(_:_:)"'
+  - String:          ' with type '
+  - FuncType:        '(Int, @noescape @callee_guaranteed (@in_guaranteed Int, @in_guaranteed Int) -> (@out Int, @error Error), @guaranteed Array<Int>) -> (Int, @error Error)'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          15
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift._allocateUninitializedArray<A>(_:)"'
+  - String:          ' with type '
+  - FuncType:        '(Builtin.Word) -> (@owned Array<Any>, Builtin.RawPointer)'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          23
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
+  - String:          ' with type '
+  - FuncType:        '(Int, @inout DefaultStringInterpolation) -> ()'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          35
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
+  - String:          ' with type '
+  - FuncType:        '(Int, @inout DefaultStringInterpolation) -> ()'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            196
+  Column:          18
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Array.init(arrayLiteral:)"'
+  - String:          ' with type '
+  - FuncType:        '(@owned Array<Point>, @thin Array<Point>.Type) -> @owned Array<Point>'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            180
+  Column:          14
+Function:        'main()'
+Args:            
+  - Callee:          '"main.Quadtree.__allocating_init(x:y:w:h:capacity:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            64
+      Column:          5
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '2'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            183
+  Column:          15
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.Range.init(uncheckedBounds:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            184
+  Column:          19
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.Range.init(uncheckedBounds:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            185
+  Column:          40
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.Range.init(uncheckedBounds:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '76'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            185
+  Column:          28
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized static Swift.BinaryFloatingPoint<>.random(in:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '5'
+  - String:          ', benefit = '
+  - Benefit:         '76'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            186
+  Column:          40
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.Range.init(uncheckedBounds:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '76'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            186
+  Column:          28
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized static Swift.BinaryFloatingPoint<>.random(in:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '5'
+  - String:          ', benefit = '
+  - Benefit:         '76'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            187
+  Column:          21
+Function:        'main()'
+Args:            
+  - Callee:          '"main.Point.init(x:y:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            11
+      Column:          5
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '76'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            189
+  Column:          20
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.Array.append(_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '5'
+  - String:          ', benefit = '
+  - Benefit:         '76'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          28
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.Collection.map<A>(_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '47'
+  - String:          ', benefit = '
+  - Benefit:         '118'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          78
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.Sequence.reduce<A>(_:_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '26'
+  - String:          ', benefit = '
+  - Benefit:         '134'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          15
+Function:        'main()'
+Args:            
+  - Callee:          '"Swift.DefaultStringInterpolation.init(literalCapacity:interpolationCount:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '13'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          16
+Function:        'main()'
+Args:            
+  - Callee:          '"Swift.DefaultStringInterpolation.appendLiteral(_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '1'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          23
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '6'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          26
+Function:        'main()'
+Args:            
+  - Callee:          '"Swift.DefaultStringInterpolation.appendLiteral(_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '1'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          35
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '6'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          42
+Function:        'main()'
+Args:            
+  - Callee:          '"Swift.DefaultStringInterpolation.appendLiteral(_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '1'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          15
+Function:        'main()'
+Args:            
+  - Callee:          '"default argument 1 of Swift.print(_:separator:terminator:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '1'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            194
+  Column:          15
+Function:        'main()'
+Args:            
+  - Callee:          '"default argument 2 of Swift.print(_:separator:terminator:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '1'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            196
+  Column:          18
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.Array.init(arrayLiteral:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            64
+  Column:          5
+Function:        'main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            64
+      Column:          5
+  - String:          ' (cost = '
+  - Cost:            '32'
+  - String:          ', benefit = '
+  - Benefit:         '30'
+  - String:          ')'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            64
+  Column:          5
+Function:        'main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            64
+      Column:          5
+  - String:          ' (cost = '
+  - Cost:            '32'
+  - String:          ', benefit = '
+  - Benefit:         '30'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          70
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Array.count.getter"'
+  - String:          ' with type '
+  - FuncType:        '(@guaranteed Array<Point>) -> Int'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            64
+  Column:          5
+Function:        'main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            64
+      Column:          5
+  - String:          ' (cost = '
+  - Cost:            '32'
+  - String:          ', benefit = '
+  - Benefit:         '30'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          37
+Function:        'main()'
+Args:            
+  - Callee:          '"main.Quadtree.points(around:within:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            116
+      Column:          10
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '15'
+  - String:          ', benefit = '
+  - Benefit:         '68'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          70
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift.Array.count.getter"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '1'
+  - String:          ', benefit = '
+  - Benefit:         '68'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          102
+Function:        'main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift._ArrayProtocol.filter(_:)"'
+  - String:          ' with type '
+  - FuncType:        '(@noescape @callee_guaranteed (@in_guaranteed Point) -> (Bool, @error Error), @owned Array<Point>) -> (@owned Array<Point>, @error Error)'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            64
+  Column:          5
+Function:        'main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            64
+      Column:          5
+  - String:          ' (cost = '
+  - Cost:            '32'
+  - String:          ', benefit = '
+  - Benefit:         '30'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          39
+Function:        'main()'
+Args:            
+  - Callee:          '"main.Point.init(x:y:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            11
+      Column:          5
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          21
+Function:        'main()'
+Args:            
+  - Callee:          '"main.Rectangle.init(center:width:height:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            30
+      Column:          5
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          115
+Function:        'main()'
+Args:            
+  - Callee:          '"curry thunk of main.Point.overlaps(_:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            164
+      Column:          10
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '1'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          102
+Function:        'main()'
+Args:            
+  - Callee:          '"specialized Swift._ArrayProtocol.filter(_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '40'
+  - String:          ', benefit = '
+  - Benefit:         '190'
+  - String:          ')'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            64
+  Column:          5
+Function:        'main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            64
+      Column:          5
+  - String:          ' (cost = '
+  - Cost:            '32'
+  - String:          ', benefit = '
+  - Benefit:         '30'
+  - String:          ')'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            64
+  Column:          5
+Function:        'main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            64
+      Column:          5
+  - String:          ' (cost = '
+  - Cost:            '32'
+  - String:          ', benefit = '
+  - Benefit:         '30'
+  - String:          ')'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            64
+  Column:          5
+Function:        'main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            64
+      Column:          5
+  - String:          ' (cost = '
+  - Cost:            '32'
+  - String:          ', benefit = '
+  - Benefit:         '30'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            165
+  Column:          14
+Function:        'main()'
+Args:            
+  - Callee:          '"static main.Point.== infix(_:_:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            4
+      Column:          24
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '5'
+  - String:          ', benefit = '
+  - Benefit:         '180'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            165
+  Column:          23
+Function:        'main()'
+Args:            
+  - Callee:          '"main.Point.distance(to:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            16
+      Column:          10
+  - String:          ' inlined into '
+  - Caller:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '6'
+  - String:          ', benefit = '
+  - Benefit:         '140'
+  - String:          ')'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            64
+  Column:          5
+Function:        'main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            64
+      Column:          5
+  - String:          ' (cost = '
+  - Cost:            '32'
+  - String:          ', benefit = '
+  - Benefit:         '30'
+  - String:          ')'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            200
+  Column:          1
+Function:        main
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            169
+      Column:          6
+  - String:          ' (cost = '
+  - Cost:            '196'
+  - String:          ', benefit = '
+  - Benefit:         '20'
   - String:          ')'
 ...
 --- !Passed
@@ -1880,1050 +3033,6 @@ Args:
   - String:          ')'
 ...
 --- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            150
-  Column:          18
-Function:        'Quadtree.clear()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Array.init(arrayLiteral:)"'
-  - String:          ' with type '
-  - FuncType:        '(@owned Array<Point>, @thin Array<Point>.Type) -> @owned Array<Point>'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            150
-  Column:          18
-Function:        'Quadtree.clear()'
-Args:            
-  - Callee:          '"specialized Swift.Array.init(arrayLiteral:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.Quadtree.clear()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            149
-      Column:          10
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            172
-  Column:          24
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Array.init()"'
-  - String:          ' with type '
-  - FuncType:        '(@thin Array<Point>.Type) -> @owned Array<Point>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            174
-  Column:          15
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Range.init(uncheckedBounds:)"'
-  - String:          ' with type '
-  - FuncType:        '(Int, Int, @thin Range<Int>.Type) -> Range<Int>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            174
-  Column:          14
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Collection<>.makeIterator()"'
-  - String:          ' with type '
-  - FuncType:        '(Range<Int>) -> IndexingIterator<Range<Int>>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            174
-  Column:          11
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.IndexingIterator.next()"'
-  - String:          ' with type '
-  - FuncType:        '(@inout IndexingIterator<Range<Int>>) -> Optional<Int>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            175
-  Column:          19
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Range.init(uncheckedBounds:)"'
-  - String:          ' with type '
-  - FuncType:        '(Int, Int, @thin Range<Int>.Type) -> Range<Int>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            175
-  Column:          18
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Collection<>.makeIterator()"'
-  - String:          ' with type '
-  - FuncType:        '(Range<Int>) -> IndexingIterator<Range<Int>>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            175
-  Column:          15
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.IndexingIterator.next()"'
-  - String:          ' with type '
-  - FuncType:        '(@inout IndexingIterator<Range<Int>>) -> Optional<Int>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            176
-  Column:          40
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Range.init(uncheckedBounds:)"'
-  - String:          ' with type '
-  - FuncType:        '(Double, Double, @thin Range<Double>.Type) -> Range<Double>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            176
-  Column:          28
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"static Swift.BinaryFloatingPoint<>.random(in:)"'
-  - String:          ' with type '
-  - FuncType:        '(Range<Double>, @thick Double.Type) -> Double'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            177
-  Column:          40
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Range.init(uncheckedBounds:)"'
-  - String:          ' with type '
-  - FuncType:        '(Double, Double, @thin Range<Double>.Type) -> Range<Double>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            177
-  Column:          28
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"static Swift.BinaryFloatingPoint<>.random(in:)"'
-  - String:          ' with type '
-  - FuncType:        '(Range<Double>, @thick Double.Type) -> Double'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            180
-  Column:          20
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Array.append(_:)"'
-  - String:          ' with type '
-  - FuncType:        '(Point, @inout Array<Point>) -> ()'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            184
-  Column:          22
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Collection<>.makeIterator()"'
-  - String:          ' with type '
-  - FuncType:        '(@owned Array<Point>) -> @owned IndexingIterator<Array<Point>>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            184
-  Column:          19
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.IndexingIterator.next()"'
-  - String:          ' with type '
-  - FuncType:        '(@inout IndexingIterator<Array<Point>>) -> Optional<Point>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            188
-  Column:          26
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Collection<>.makeIterator()"'
-  - String:          ' with type '
-  - FuncType:        '(@owned Array<Point>) -> @owned IndexingIterator<Array<Point>>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            188
-  Column:          23
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.IndexingIterator.next()"'
-  - String:          ' with type '
-  - FuncType:        '(@inout IndexingIterator<Array<Point>>) -> Optional<Point>'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          15
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift._allocateUninitializedArray<A>(_:)"'
-  - String:          ' with type '
-  - FuncType:        '(Builtin.Word) -> (@owned Array<Any>, Builtin.RawPointer)'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          23
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
-  - String:          ' with type '
-  - FuncType:        '(Int, @inout DefaultStringInterpolation) -> ()'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          35
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
-  - String:          ' with type '
-  - FuncType:        '(Int, @inout DefaultStringInterpolation) -> ()'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            196
-  Column:          18
-Function:        'main()'
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.Array.init(arrayLiteral:)"'
-  - String:          ' with type '
-  - FuncType:        '(@owned Array<Point>, @thin Array<Point>.Type) -> @owned Array<Point>'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            171
-  Column:          14
-Function:        'main()'
-Args:            
-  - Callee:          '"main.Quadtree.__allocating_init(x:y:w:h:capacity:)"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            64
-      Column:          5
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '2'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            174
-  Column:          15
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized Swift.Range.init(uncheckedBounds:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            175
-  Column:          19
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized Swift.Range.init(uncheckedBounds:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            176
-  Column:          40
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized Swift.Range.init(uncheckedBounds:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '60'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            176
-  Column:          28
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized static Swift.BinaryFloatingPoint<>.random(in:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '5'
-  - String:          ', benefit = '
-  - Benefit:         '60'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            177
-  Column:          40
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized Swift.Range.init(uncheckedBounds:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '60'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            177
-  Column:          28
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized static Swift.BinaryFloatingPoint<>.random(in:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '5'
-  - String:          ', benefit = '
-  - Benefit:         '60'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            178
-  Column:          21
-Function:        'main()'
-Args:            
-  - Callee:          '"main.Point.init(x:y:)"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            11
-      Column:          5
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '60'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            180
-  Column:          20
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized Swift.Array.append(_:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '5'
-  - String:          ', benefit = '
-  - Benefit:         '60'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            185
-  Column:          26
-Function:        'main()'
-Args:            
-  - Callee:          '"main.Point.init(x:y:)"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            11
-      Column:          5
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            186
-  Column:          21
-Function:        'main()'
-Args:            
-  - Callee:          '"main.Rectangle.init(center:width:height:)"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            30
-      Column:          5
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          15
-Function:        'main()'
-Args:            
-  - Callee:          '"Swift.DefaultStringInterpolation.init(literalCapacity:interpolationCount:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '13'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          16
-Function:        'main()'
-Args:            
-  - Callee:          '"Swift.DefaultStringInterpolation.appendLiteral(_:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '1'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          23
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '6'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          26
-Function:        'main()'
-Args:            
-  - Callee:          '"Swift.DefaultStringInterpolation.appendLiteral(_:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '1'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          35
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '6'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          42
-Function:        'main()'
-Args:            
-  - Callee:          '"Swift.DefaultStringInterpolation.appendLiteral(_:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '1'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          15
-Function:        'main()'
-Args:            
-  - Callee:          '"default argument 1 of Swift.print(_:separator:terminator:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '1'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            194
-  Column:          15
-Function:        'main()'
-Args:            
-  - Callee:          '"default argument 2 of Swift.print(_:separator:terminator:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '1'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            196
-  Column:          18
-Function:        'main()'
-Args:            
-  - Callee:          '"specialized Swift.Array.init(arrayLiteral:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            189
-  Column:          26
-Function:        'main()'
-Args:            
-  - Callee:          '"static main.Point.== infix(_:_:)"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            4
-      Column:          24
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '5'
-  - String:          ', benefit = '
-  - Benefit:         '180'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            189
-  Column:          35
-Function:        'main()'
-Args:            
-  - Callee:          '"main.Point.distance(to:)"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            16
-      Column:          10
-  - String:          ' inlined into '
-  - Caller:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '6'
-  - String:          ', benefit = '
-  - Benefit:         '140'
-  - String:          ')'
-...
---- !Missed
-Pass:            sil-inliner
-Name:            sil.NoInlinedCost
-DebugLoc:        
-  File:            main.swift
-  Line:            64
-  Column:          5
-Function:        'main()'
-Args:            
-  - String:          'Not profitable to inline function '
-  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            64
-      Column:          5
-  - String:          ' (cost = '
-  - Cost:            '32'
-  - String:          ', benefit = '
-  - Benefit:         '30'
-  - String:          ')'
-...
---- !Missed
-Pass:            sil-inliner
-Name:            sil.NoInlinedCost
-DebugLoc:        
-  File:            main.swift
-  Line:            64
-  Column:          5
-Function:        'main()'
-Args:            
-  - String:          'Not profitable to inline function '
-  - Callee:          '"main.Quadtree.init(x:y:w:h:capacity:)"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            64
-      Column:          5
-  - String:          ' (cost = '
-  - Cost:            '32'
-  - String:          ', benefit = '
-  - Benefit:         '30'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            200
-  Column:          7
-Function:        main
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift._allocateUninitializedArray<A>(_:)"'
-  - String:          ' with type '
-  - FuncType:        '(Builtin.Word) -> (@owned Array<Any>, Builtin.RawPointer)'
-...
---- !Passed
-Pass:            sil-generic-specializer
-Name:            sil.Specialized
-DebugLoc:        
-  File:            main.swift
-  Line:            200
-  Column:          31
-Function:        main
-Args:            
-  - String:          'Specialized function '
-  - Function:        '"Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
-  - String:          ' with type '
-  - FuncType:        '(@thick ((@autoclosure () -> String, StaticString, UInt) -> Never).Type, @inout DefaultStringInterpolation) -> ()'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            200
-  Column:          7
-Function:        main
-Args:            
-  - Callee:          '"Swift.DefaultStringInterpolation.init(literalCapacity:interpolationCount:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main"'
-  - String:          ' (cost = '
-  - Cost:            '13'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            200
-  Column:          8
-Function:        main
-Args:            
-  - Callee:          '"Swift.DefaultStringInterpolation.appendLiteral(_:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main"'
-  - String:          ' (cost = '
-  - Cost:            '1'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            200
-  Column:          31
-Function:        main
-Args:            
-  - Callee:          '"specialized Swift.DefaultStringInterpolation.appendInterpolation<A>(_:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main"'
-  - String:          ' (cost = '
-  - Cost:            '4'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            200
-  Column:          53
-Function:        main
-Args:            
-  - Callee:          '"Swift.DefaultStringInterpolation.appendLiteral(_:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main"'
-  - String:          ' (cost = '
-  - Cost:            '1'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            200
-  Column:          7
-Function:        main
-Args:            
-  - Callee:          '"default argument 1 of Swift.print(_:separator:terminator:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main"'
-  - String:          ' (cost = '
-  - Cost:            '1'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
-Pass:            sil-inliner
-Name:            sil.Inlined
-DebugLoc:        
-  File:            main.swift
-  Line:            200
-  Column:          7
-Function:        main
-Args:            
-  - Callee:          '"default argument 2 of Swift.print(_:separator:terminator:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main"'
-  - String:          ' (cost = '
-  - Cost:            '1'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Missed
-Pass:            sil-inliner
-Name:            sil.NoInlinedCost
-DebugLoc:        
-  File:            main.swift
-  Line:            201
-  Column:          1
-Function:        main
-Args:            
-  - String:          'Not profitable to inline function '
-  - Callee:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '136'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Missed
-Pass:            sil-inliner
-Name:            sil.NoInlinedCost
-DebugLoc:        
-  File:            main.swift
-  Line:            201
-  Column:          1
-Function:        main
-Args:            
-  - String:          'Not profitable to inline function '
-  - Callee:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '136'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Passed
 Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
@@ -2949,6 +3058,302 @@ Args:
   - Benefit:         '40'
   - String:          ')'
 ...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          102
+Function:        'Quadtree.points(around:within:)'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift._ArrayProtocol.filter(_:)"'
+  - String:          ' with type '
+  - FuncType:        '(@noescape @callee_guaranteed (@in_guaranteed Point) -> (Bool, @error Error), @owned Array<Point>) -> (@owned Array<Point>, @error Error)'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          39
+Function:        'Quadtree.points(around:within:)'
+Args:            
+  - Callee:          '"main.Point.init(x:y:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            11
+      Column:          5
+  - String:          ' inlined into '
+  - Caller:          '"main.Quadtree.points(around:within:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            116
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          21
+Function:        'Quadtree.points(around:within:)'
+Args:            
+  - Callee:          '"main.Rectangle.init(center:width:height:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            30
+      Column:          5
+  - String:          ' inlined into '
+  - Caller:          '"main.Quadtree.points(around:within:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            116
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '0'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          115
+Function:        'Quadtree.points(around:within:)'
+Args:            
+  - Callee:          '"curry thunk of main.Point.overlaps(_:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            164
+      Column:          10
+  - String:          ' inlined into '
+  - Caller:          '"main.Quadtree.points(around:within:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            116
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '1'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            117
+  Column:          102
+Function:        'Quadtree.points(around:within:)'
+Args:            
+  - Callee:          '"specialized Swift._ArrayProtocol.filter(_:)"'
+  - String:          ' inlined into '
+  - Caller:          '"main.Quadtree.points(around:within:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            116
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '40'
+  - String:          ', benefit = '
+  - Benefit:         '118'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            165
+  Column:          14
+Function:        'Quadtree.points(around:within:)'
+Args:            
+  - Callee:          '"static main.Point.== infix(_:_:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            4
+      Column:          24
+  - String:          ' inlined into '
+  - Caller:          '"main.Quadtree.points(around:within:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            116
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '5'
+  - String:          ', benefit = '
+  - Benefit:         '84'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            165
+  Column:          23
+Function:        'Quadtree.points(around:within:)'
+Args:            
+  - Callee:          '"main.Point.distance(to:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            16
+      Column:          10
+  - String:          ' inlined into '
+  - Caller:          '"main.Quadtree.points(around:within:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            116
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '6'
+  - String:          ', benefit = '
+  - Benefit:         '68'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            165
+  Column:          14
+Function:        'Point.overlaps(_:)'
+Args:            
+  - Callee:          '"static main.Point.== infix(_:_:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            4
+      Column:          24
+  - String:          ' inlined into '
+  - Caller:          '"main.Point.overlaps(_:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            164
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '5'
+  - String:          ', benefit = '
+  - Benefit:         '40'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            165
+  Column:          23
+Function:        'Point.overlaps(_:)'
+Args:            
+  - Callee:          '"main.Point.distance(to:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            16
+      Column:          10
+  - String:          ' inlined into '
+  - Caller:          '"main.Point.overlaps(_:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            164
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '6'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-generic-specializer
+Name:            sil.Specialized
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          70
+Function:        'closure #1 in main()'
+Args:            
+  - String:          'Specialized function '
+  - Function:        '"Swift.Array.count.getter"'
+  - String:          ' with type '
+  - FuncType:        '(@guaranteed Array<Point>) -> Int'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          37
+Function:        'closure #1 in main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.points(around:within:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            116
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '41'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Passed
+Pass:            sil-inliner
+Name:            sil.Inlined
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          70
+Function:        'closure #1 in main()'
+Args:            
+  - Callee:          '"specialized Swift.Array.count.getter"'
+  - String:          ' inlined into '
+  - Caller:          '"closure #1 in main.main()"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            192
+      Column:          32
+  - String:          ' (cost = '
+  - Cost:            '1'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
+--- !Missed
+Pass:            sil-inliner
+Name:            sil.NoInlinedCost
+DebugLoc:        
+  File:            main.swift
+  Line:            192
+  Column:          37
+Function:        'closure #1 in main()'
+Args:            
+  - String:          'Not profitable to inline function '
+  - Callee:          '"main.Quadtree.points(around:within:)"'
+    DebugLoc:        
+      File:            main.swift
+      Line:            116
+      Column:          10
+  - String:          ' (cost = '
+  - Cost:            '41'
+  - String:          ', benefit = '
+  - Benefit:         '20'
+  - String:          ')'
+...
 --- !Missed
 Pass:            sil-inliner
 Name:            sil.NoInlinedCost
@@ -3046,7 +3451,7 @@ Args:
   - Callee:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '86'
@@ -3067,7 +3472,7 @@ Args:
   - Callee:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '86'
@@ -3319,7 +3724,7 @@ Pass:            sil-inliner
 Name:            sil.Inlined
 DebugLoc:        
   File:            main.swift
-  Line:            172
+  Line:            181
   Column:          24
 Function:        'main()'
 Args:            
@@ -3328,7 +3733,7 @@ Args:
   - Caller:          '"main.main()"'
     DebugLoc:        
       File:            main.swift
-      Line:            160
+      Line:            169
       Column:          6
   - String:          ' (cost = '
   - Cost:            '1'
@@ -3350,7 +3755,7 @@ Args:
   - Caller:          '"main.main()"'
     DebugLoc:        
       File:            main.swift
-      Line:            160
+      Line:            169
       Column:          6
   - String:          ' (cost = '
   - Cost:            '0'
@@ -3379,30 +3784,12 @@ Args:
   - Benefit:         '30'
   - String:          ')'
 ...
---- !Passed
+--- !Missed
 Pass:            sil-inliner
-Name:            sil.Inlined
+Name:            sil.NoInlinedCost
 DebugLoc:        
   File:            main.swift
   Line:            200
-  Column:          7
-Function:        main
-Args:            
-  - Callee:          '"Swift.String.init(stringInterpolation:)"'
-  - String:          ' inlined into '
-  - Caller:          '"main"'
-  - String:          ' (cost = '
-  - Cost:            '0'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Missed
-Pass:            sil-inliner
-Name:            sil.NoInlinedCost
-DebugLoc:        
-  File:            main.swift
-  Line:            201
   Column:          1
 Function:        main
 Args:            
@@ -3410,31 +3797,10 @@ Args:
   - Callee:          '"main.main()"'
     DebugLoc:        
       File:            main.swift
-      Line:            160
+      Line:            169
       Column:          6
   - String:          ' (cost = '
-  - Cost:            '399'
-  - String:          ', benefit = '
-  - Benefit:         '20'
-  - String:          ')'
-...
---- !Missed
-Pass:            sil-inliner
-Name:            sil.NoInlinedCost
-DebugLoc:        
-  File:            main.swift
-  Line:            201
-  Column:          1
-Function:        main
-Args:            
-  - String:          'Not profitable to inline function '
-  - Callee:          '"main.main()"'
-    DebugLoc:        
-      File:            main.swift
-      Line:            160
-      Column:          6
-  - String:          ' (cost = '
-  - Cost:            '399'
+  - Cost:            '508'
   - String:          ', benefit = '
   - Benefit:         '20'
   - String:          ')'
@@ -3536,7 +3902,7 @@ Args:
   - Callee:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '86'
@@ -3557,7 +3923,7 @@ Args:
   - Callee:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '86'
@@ -3578,7 +3944,7 @@ Args:
   - Callee:          '"main.Quadtree.divide()"'
     DebugLoc:        
       File:            main.swift
-      Line:            117
+      Line:            120
       Column:          10
   - String:          ' (cost = '
   - Cost:            '86'
@@ -3633,7 +3999,7 @@ Pass:            sil-inliner
 Name:            sil.NoInlinedCost
 DebugLoc:        
   File:            main.swift
-  Line:            201
+  Line:            200
   Column:          1
 Function:        main
 Args:            
@@ -3641,10 +4007,10 @@ Args:
   - Callee:          '"main.main()"'
     DebugLoc:        
       File:            main.swift
-      Line:            160
+      Line:            169
       Column:          6
   - String:          ' (cost = '
-  - Cost:            '181'
+  - Cost:            '290'
   - String:          ', benefit = '
   - Benefit:         '20'
   - String:          ')'

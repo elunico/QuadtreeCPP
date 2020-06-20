@@ -5,4 +5,5 @@ import kotlin.math.sqrt
 
 data class Point(var x: Double, var y: Double) {
     infix fun distanceTo(other: Point) = sqrt((x - other.x).pow(2.0) + (y - other.y).pow(2.0))
+    infix fun overlaps(it: Point) = this != it && this distanceTo it < 3.0
 }

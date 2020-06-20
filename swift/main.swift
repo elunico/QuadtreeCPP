@@ -113,6 +113,9 @@ class Quadtree {
         }
     }
 
+    func points(around point: Point, within radius: Double) -> [Point] {
+        query(area: Rectangle(center: Point(x: point.x, y: point.y), width: radius, height: radius)).filter(point.overlaps)
+    }
 
     func divide() {
         self.top_left = Quadtree(
@@ -157,6 +160,12 @@ class Quadtree {
 
 }
 
+extension Point {
+    func overlaps(_ other: Point) -> Bool {
+        self != other && self.distance(to: other) < 3.0
+    }
+}
+
 func main() {
     // about 2 times slower than rust which itself is approximately 1.5 times slower than c++
     // this is very likely because I am just unfamiliar with rust and swift compared to c++
@@ -180,17 +189,8 @@ func main() {
             points.append(p)
         }
 
-        var count = 0;
-        for point in points {
-            let center = Point(x: point.x, y: point.y)
-            let r = Rectangle(center: center, width: 10.0, height: 10.0);
-            // for other in &points {
-            for other in qt.query(area: r) {
-                if point != other && point.distance(to: other) < 3.0 {
-                    count += 1;
-                }
-            }
-        }
+        let count = points.map { qt.points(around: $0, within: 10.0).count }.reduce(0, +)
+
         print("Round \(i): Found \(count) overlapping points");
         qt.clear();
         points = []

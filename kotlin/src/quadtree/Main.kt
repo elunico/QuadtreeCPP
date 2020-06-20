@@ -22,9 +22,7 @@ fun main() {
                 points.add(p)
             }
 
-            val count = points.fold(0L) { acc, point ->
-                qt.query(Rectangle(Point(point.x, point.y), 10.0, 10.0)).filter(point::overlaps).count() + acc
-            }
+            val count = points.sumBy { qt.pointsOverlapping(it, 10.0).count() }
 
             println("Round $iterations: Found $count overlapping points")
             qt.clear()
@@ -33,6 +31,3 @@ fun main() {
         }
     }.also(::println)
 }
-
-private infix fun Point.overlaps(it: Point) = this != it && this distanceTo it < 3.0
-

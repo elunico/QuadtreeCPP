@@ -79,6 +79,10 @@ class Quadtree(x: Double, y: Double, w: Double, h: Double, var capacity: Int) {
         split = true
     }
 
+    public fun pointsOverlapping(p: Point, radius: Double): List<Point> {
+        return this.query(Rectangle(Point(p.x, p.y), radius, radius)).filter(p::overlaps)
+    }
+
     fun clear() {
         points = mutableListOf()
         topLeft?.clear()
@@ -87,5 +91,4 @@ class Quadtree(x: Double, y: Double, w: Double, h: Double, var capacity: Int) {
         bottomRight?.clear()
         split = false
     }
-
 }

@@ -168,13 +168,11 @@ def main()
       points.push p
     end
 
-    count = 0
-    points.each do |point|
-      r = Rectangle.new(Point.new(point.x, point.y), 10.0, 10.0)
-      qt.query(r).each do |other|
-        count += 1 unless point == other || point.distance_to(other) >= 3.0
-      end
-    end
+    count = points.map { |point|
+      qt.query(Rectangle.new(Point.new(point.x, point.y), 10.0, 10.0)).select { |other|
+        point != other && point.distance_to(other) < 3.0
+      }.count
+    }.sum
     puts "Round #{i}: Found #{count} overlapping points"
     qt.clear
     points = []
