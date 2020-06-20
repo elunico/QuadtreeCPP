@@ -15,6 +15,6 @@ class Point:
     def __repr__(self):
         return 'Point{}'.format(self.__str__())
 
-    def distanceto(self, other):
+    def dist_to(self, other):
         return math.sqrt(math.pow(self.x - other.x, 2) +
                          math.pow(self.y - other.y, 2))

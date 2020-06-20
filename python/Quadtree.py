@@ -93,12 +93,23 @@ class Quadtree:
         self.split = False
 
 
+def overlaps(point, other):
+    return point != other and point.dist_to(other) < 3.0
+
+
 def main():
     TOTAL_POINTS = 20000
     w = 200.0
     h = 200.0
-    qt = Quadtree(w/2.0, h/2.0, w/2.0, h/2.0, 4)
+    qt = Quadtree(w / 2.0, h / 2.0, w / 2.0, h / 2.0, 4)
     points = []
+
+    def candidate_points(point, xdist=10, ydist=10):
+        return qt.query(Rectangle(Point(point.x, point.y), xdist, ydist))
+
+    def overlapping_points(focus):
+        return [other for other in candidate_points(focus) if
+                overlaps(focus, other)]
 
     for i in range(5):
         for _ in range(TOTAL_POINTS):
@@ -108,12 +119,8 @@ def main():
             qt.insert(p)
             points.append(p)
 
-        count = 0
-        for point in points:
-            r = Rectangle(Point(point.x, point.y), 10.0, 10.0)
-            for other in qt.query(r):
-                if point != other and point.distanceto(other) < 3.0:
-                    count += 1
+        count = sum(len(overlapping_points(point)) for point in points)
+
         print("Round {}: Found {} overlapping points".format(i, count))
         qt.clear()
         points = []
