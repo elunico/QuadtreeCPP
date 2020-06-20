@@ -112,7 +112,7 @@ def main():
         for point in points:
             r = Rectangle(Point(point.x, point.y), 10.0, 10.0)
             for other in qt.query(r):
-                if point != other and point.distanceto(other) < 3.0:
+                if point != other and point.dist_to(other) < 3.0:
                     count += 1
         print("Round {}: Found {} overlapping points".format(i, count))
         qt.clear()
