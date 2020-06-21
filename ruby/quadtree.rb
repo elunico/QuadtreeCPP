@@ -93,6 +93,12 @@ class Quadtree
     end
   end
 
+  def points(around:, within:)
+    query(Rectangle.new(Point.new(around.x, around.y), 10.0)).select { |other|
+      around != other && around.distance_to(other) < 3.0
+    }
+  end
+
   def query(r)
     found = []
     if not intersects(r)
@@ -168,11 +174,7 @@ def main()
       points.push p
     end
 
-    count = points.map { |point|
-      qt.query(Rectangle.new(Point.new(point.x, point.y), 10.0, 10.0)).select { |other|
-        point != other && point.distance_to(other) < 3.0
-      }.count
-    }.sum
+    count = points.map { |point| qt.points(around: point, within: 10.0).count }.sum
     puts "Round #{i}: Found #{count} overlapping points"
     qt.clear
     points = []
