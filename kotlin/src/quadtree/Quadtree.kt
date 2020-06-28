@@ -1,7 +1,6 @@
 package quadtree
 
 fun Boolean.then(block: () -> Unit): Boolean = if (this) this.apply { block() } else this
-fun Boolean.ifFalse(block: () -> Unit): Boolean = if (!this) this.apply { block() } else this
 
 class Quadtree(x: Double, y: Double, w: Double, h: Double, var capacity: Int) {
     val bounds: Rectangle = Rectangle(Point(x, y), w, h)

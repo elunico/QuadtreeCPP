@@ -207,7 +207,7 @@ fn main() {
         width: 10.0,
         height: 10.0,
       };
-      // for other in &points {
+
       for other in &qt.query(&r) {
         if *point != *other && point.distance_to(other) < 3.0 {
           count += 1;

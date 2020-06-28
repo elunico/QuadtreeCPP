@@ -106,10 +106,10 @@ class Quadtree
     else
       found.concat(self.points.select { |p| r.contains p })
       if has_children()
-        @tl.query(r).each { |p| found.push p }
-        @tr.query(r).each { |p| found.push p }
-        @bl.query(r).each { |p| found.push p }
-        @br.query(r).each { |p| found.push p }
+        found.concat(@tl.query(r))
+        found.concat(@tr.query(r))
+        found.concat(@bl.query(r))
+        found.concat(@br.query(r))
       end
     end
     found

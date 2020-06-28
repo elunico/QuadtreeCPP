@@ -55,29 +55,29 @@ class Quadtree:
 
     def divide(self):
         self.tl = Quadtree(
-            self.bounds.x() - self.bounds.width / 2.0,
-            self.bounds.y() - self.bounds.height / 2.0,
+            self.bounds.x - self.bounds.width / 2.0,
+            self.bounds.y - self.bounds.height / 2.0,
             self.bounds.width / 2.0,
             self.bounds.height / 2.0,
             self.capacity,
         )
         self.tr = Quadtree(
-            self.bounds.x() + self.bounds.width / 2.0,
-            self.bounds.y() - self.bounds.height / 2.0,
+            self.bounds.x + self.bounds.width / 2.0,
+            self.bounds.y - self.bounds.height / 2.0,
             self.bounds.width / 2.0,
             self.bounds.height / 2.0,
             self.capacity,
         )
         self.bl = Quadtree(
-            self.bounds.x() - self.bounds.width / 2.0,
-            self.bounds.y() + self.bounds.height / 2.0,
+            self.bounds.x - self.bounds.width / 2.0,
+            self.bounds.y + self.bounds.height / 2.0,
             self.bounds.width / 2.0,
             self.bounds.height / 2.0,
             self.capacity,
         )
         self.br = Quadtree(
-            self.bounds.x() + self.bounds.width / 2.0,
-            self.bounds.y() + self.bounds.height / 2.0,
+            self.bounds.x + self.bounds.width / 2.0,
+            self.bounds.y + self.bounds.height / 2.0,
             self.bounds.width / 2.0,
             self.bounds.height / 2.0,
             self.capacity,
